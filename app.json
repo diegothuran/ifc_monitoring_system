@@ -1,0 +1,49 @@
+{
+  "name": "IFC Monitoring System",
+  "description": "Sistema de monitoramento de sensores para arquivos IFC",
+  "repository": "https://github.com/seu-usuario/ifc-monitoring-system",
+  "logo": "https://via.placeholder.com/150x150/007ACC/FFFFFF?text=IFC",
+  "keywords": ["fastapi", "ifc", "monitoring", "sensors", "building", "construction"],
+  "success_url": "/docs",
+  "scripts": {
+    "postdeploy": "python -c \"from backend.models import Base; from backend.core.database import engine; Base.metadata.create_all(bind=engine)\""
+  },
+  "env": {
+    "SECRET_KEY": {
+      "description": "Chave secreta para JWT (será gerada automaticamente)",
+      "generator": "secret"
+    },
+    "DEBUG": {
+      "description": "Modo de debug (False para produção)",
+      "value": "False"
+    },
+    "LOG_LEVEL": {
+      "description": "Nível de log",
+      "value": "INFO"
+    },
+    "API_V1_STR": {
+      "description": "Prefixo da API",
+      "value": "/api/v1"
+    },
+    "PROJECT_NAME": {
+      "description": "Nome do projeto",
+      "value": "IFC Monitoring System"
+    }
+  },
+  "formation": {
+    "web": {
+      "quantity": 1,
+      "size": "basic"
+    }
+  },
+  "addons": [
+    {
+      "plan": "heroku-postgresql:mini"
+    }
+  ],
+  "buildpacks": [
+    {
+      "url": "heroku/python"
+    }
+  ]
+}
