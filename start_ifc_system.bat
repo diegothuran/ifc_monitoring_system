@@ -29,8 +29,8 @@ echo ========================================
 echo.
 echo URLs:
 echo   Frontend: http://localhost:8501
-echo   Backend:  http://localhost:8000
-echo   Docs:     http://localhost:8000/docs
+echo   Backend:  https://ifc-backend-ph0n.onrender.com
+echo   Docs:     https://ifc-backend-ph0n.onrender.com/docs
 echo.
 echo Credenciais:
 echo   Usuario: admin

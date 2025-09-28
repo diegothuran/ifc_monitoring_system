@@ -53,7 +53,7 @@ Crie um arquivo `.env` na pasta `streamlit_app`:
 
 ```env
 # URL do backend API
-API_BASE_URL=http://localhost:8000/api/v1
+API_BASE_URL=https://ifc-backend-ph0n.onrender.com/api/v1
 
 # Configurações do Streamlit (opcional)
 STREAMLIT_SERVER_PORT=8501

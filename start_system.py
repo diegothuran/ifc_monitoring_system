@@ -55,8 +55,8 @@ def start_backend():
         # Check if the server is running
         if process.poll() is None:
             print("✓ Backend server started successfully")
-            print("  API available at: http://localhost:8000")
-            print("  API docs at: http://localhost:8000/docs")
+            print("  API available at: https://ifc-backend-ph0n.onrender.com")
+            print("  API docs at: https://ifc-backend-ph0n.onrender.com/docs")
             return process
         else:
             stdout, stderr = process.communicate()
@@ -146,8 +146,8 @@ def main():
     print("="*60)
     print("\nAccess points:")
     print("  Frontend: http://localhost:3000")
-    print("  Backend API: http://localhost:8000")
-    print("  API Documentation: http://localhost:8000/docs")
+    print("  Backend API: https://ifc-backend-ph0n.onrender.com")
+    print("  API Documentation: https://ifc-backend-ph0n.onrender.com/docs")
     print("\nDefault login credentials:")
     print("  Admin: admin / admin123")
     print("  Operator: operator / operator123")

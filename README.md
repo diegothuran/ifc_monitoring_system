@@ -230,9 +230,9 @@ PORT=8000  # Configurado automaticamente pelo Heroku
 
 ### 🌐 Pontos de Acesso
 - **🎨 Aplicação Frontend**: http://localhost:3000
-- **🔗 API Backend**: http://localhost:8000
-- **📚 Documentação da API**: http://localhost:8000/docs
-- **🔄 API Interativa**: http://localhost:8000/redoc
+- **🔗 API Backend**: https://ifc-backend-ph0n.onrender.com
+- **📚 Documentação da API**: https://ifc-backend-ph0n.onrender.com/docs
+- **🔄 API Interativa**: https://ifc-backend-ph0n.onrender.com/redoc
 
 ### 👤 Credenciais de Login Padrão
 O sistema cria usuários de exemplo automaticamente:

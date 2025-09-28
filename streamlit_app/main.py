@@ -16,7 +16,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # Configuration
-API_BASE_URL = os.getenv("API_BASE_URL", "http://localhost:8000/api/v1")
+API_BASE_URL = os.getenv("API_BASE_URL", "https://ifc-backend-ph0n.onrender.com/api/v1")
 REFRESH_INTERVAL = 30  # seconds
 
 # Initialize session state

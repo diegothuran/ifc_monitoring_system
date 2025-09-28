@@ -13,7 +13,7 @@ Edite o arquivo `frontend/src/services/api.ts`:
 const API_BASE_URL = process.env.REACT_APP_API_URL || 'https://seu-app.herokuapp.com/api/v1';
 
 // Configuração para desenvolvimento
-// const API_BASE_URL = 'http://localhost:8000/api/v1';
+// const API_BASE_URL = 'https://ifc-backend-ph0n.onrender.com/api/v1';
 
 export const api = axios.create({
   baseURL: API_BASE_URL,

@@ -16,7 +16,7 @@ def make_authenticated_request(endpoint: str, method: str = 'GET', data: dict = 
         return None
     
     headers = {'Authorization': f'Bearer {st.session_state.access_token}'}
-    api_base = st.session_state.get('api_base_url', 'http://localhost:8000/api/v1')
+    api_base = st.session_state.get('api_base_url', 'https://ifc-backend-ph0n.onrender.com/api/v1')
     
     try:
         if method == 'GET':
