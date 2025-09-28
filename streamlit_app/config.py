@@ -9,7 +9,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # API Configuration
-API_BASE_URL = os.getenv("API_BASE_URL", "http://localhost:8000/api/v1")
+API_BASE_URL = "https://ifc-backend-ph0n.onrender.com/api/v1"
 
 # App Configuration
 APP_TITLE = "IFC Monitoring System"
